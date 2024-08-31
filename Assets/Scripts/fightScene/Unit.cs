@@ -4,15 +4,15 @@ public class Unit : MonoBehaviour
 {
     public int ID;
     public int initiative;
-    public int damageType;
-    public int resist;
-    public int vulnerability;
+    public ElementalTypes damageType;
+    public ElementalTypes resist;
+    public ElementalTypes vulnerability;
     public int accuracy;
     public int times;
     public int hpBase;
     public int damage;
-    public int fraction;
-    public int rang;
+    public FractionTypes fraction;
+    public GradeClasses rang;
     public int Energy—onsumption;
     public int Type;
     public int expNeed;

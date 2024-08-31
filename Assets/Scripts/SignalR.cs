@@ -24,7 +24,7 @@ public class SignalR : MonoBehaviour
     public async Task StartSearching()
     {
         MatchmakingStatus += Set;
-        hubConnection = new HubConnectionBuilder().WithUrl("http://46.8.21.206:5215/MatchmakingHub").Build();
+        hubConnection = new HubConnectionBuilder().WithUrl("http://localhost:5215/MatchmakingHub").Build();
         hubConnection.On("MatchmakingStatus", (int side, int mode, string index, string ident) => MatchmakingStatus?.Invoke(side, mode, index, ident));
         await hubConnection.StartAsync();
         Dictionary<string, string> form = new()

@@ -70,13 +70,13 @@ public class StartIni : MonoBehaviour
             BattleNetwork.doingQueue.Clear();
             BattleNetwork.attackResultQueue.Clear();
         }
-/*        StartCoroutine(TimeOutTimer());
-        StartCoroutine(GetComponent<BattleNetwork>().Game(0));*/
+        StartCoroutine(TimeOutTimer());
+        StartCoroutine(GetComponent<BattleNetwork>().Game(0));
 
-        Energy.mode = 1;
+/*        Energy.mode = 1;
             StartCoroutine(GetComponent<BattleNetwork>().Game(1));
             LoadingManager.LoadingScreenAfter = -1;
-            Start2();
+            Start2();*/
     }
     private IEnumerator TimeOutTimer()
     {
