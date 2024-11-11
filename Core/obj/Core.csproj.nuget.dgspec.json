@@ -1,0 +1,325 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Farieblade\\Core\\Core.csproj": {}
+  },
+  "projects": {
+    "E:\\Farieblade\\Assembly-CSharp.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "E:\\Farieblade\\Assembly-CSharp.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {
+              "E:\\Farieblade\\spine-unity-editor.csproj": {
+                "projectPath": "E:\\Farieblade\\spine-unity-editor.csproj"
+              },
+              "E:\\Farieblade\\spine-unity.csproj": {
+                "projectPath": "E:\\Farieblade\\spine-unity.csproj"
+              },
+              "E:\\Farieblade\\UniTask.Addressables.csproj": {
+                "projectPath": "E:\\Farieblade\\UniTask.Addressables.csproj"
+              },
+              "E:\\Farieblade\\UniTask.csproj": {
+                "projectPath": "E:\\Farieblade\\UniTask.csproj"
+              },
+              "E:\\Farieblade\\UniTask.DOTween.csproj": {
+                "projectPath": "E:\\Farieblade\\UniTask.DOTween.csproj"
+              },
+              "E:\\Farieblade\\UniTask.Linq.csproj": {
+                "projectPath": "E:\\Farieblade\\UniTask.Linq.csproj"
+              },
+              "E:\\Farieblade\\UniTask.TextMeshPro.csproj": {
+                "projectPath": "E:\\Farieblade\\UniTask.TextMeshPro.csproj"
+              },
+              "E:\\Farieblade\\Zenject-Editor.csproj": {
+                "projectPath": "E:\\Farieblade\\Zenject-Editor.csproj"
+              },
+              "E:\\Farieblade\\Zenject-PoolMonitor-Editor.csproj": {
+                "projectPath": "E:\\Farieblade\\Zenject-PoolMonitor-Editor.csproj"
+              },
+              "E:\\Farieblade\\Zenject-ReflectionBaking-Editor.csproj": {
+                "projectPath": "E:\\Farieblade\\Zenject-ReflectionBaking-Editor.csproj"
+              },
+              "E:\\Farieblade\\Zenject.csproj": {
+                "projectPath": "E:\\Farieblade\\Zenject.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
+    "E:\\Farieblade\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "E:\\Farieblade\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\arnix\\.nuget\\packages\\",
+        "outputPath": "E:\\Farieblade\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\arnix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Farieblade\\Assembly-CSharp.csproj": {
+                "projectPath": "E:\\Farieblade\\Assembly-CSharp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Farieblade\\spine-unity-editor.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\spine-unity-editor.csproj",
+        "projectName": "spine-unity-editor",
+        "projectPath": "E:\\Farieblade\\spine-unity-editor.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {
+              "E:\\Farieblade\\spine-unity.csproj": {
+                "projectPath": "E:\\Farieblade\\spine-unity.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
+    "E:\\Farieblade\\spine-unity.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\spine-unity.csproj",
+        "projectName": "spine-unity",
+        "projectPath": "E:\\Farieblade\\spine-unity.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
+    "E:\\Farieblade\\UniTask.Addressables.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\UniTask.Addressables.csproj",
+        "projectName": "UniTask.Addressables",
+        "projectPath": "E:\\Farieblade\\UniTask.Addressables.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {
+              "E:\\Farieblade\\UniTask.csproj": {
+                "projectPath": "E:\\Farieblade\\UniTask.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
+    "E:\\Farieblade\\UniTask.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\UniTask.csproj",
+        "projectName": "UniTask",
+        "projectPath": "E:\\Farieblade\\UniTask.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
+    "E:\\Farieblade\\UniTask.DOTween.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\UniTask.DOTween.csproj",
+        "projectName": "UniTask.DOTween",
+        "projectPath": "E:\\Farieblade\\UniTask.DOTween.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {
+              "E:\\Farieblade\\UniTask.csproj": {
+                "projectPath": "E:\\Farieblade\\UniTask.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
+    "E:\\Farieblade\\UniTask.Linq.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\UniTask.Linq.csproj",
+        "projectName": "UniTask.Linq",
+        "projectPath": "E:\\Farieblade\\UniTask.Linq.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {
+              "E:\\Farieblade\\UniTask.csproj": {
+                "projectPath": "E:\\Farieblade\\UniTask.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
+    "E:\\Farieblade\\UniTask.TextMeshPro.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\UniTask.TextMeshPro.csproj",
+        "projectName": "UniTask.TextMeshPro",
+        "projectPath": "E:\\Farieblade\\UniTask.TextMeshPro.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {
+              "E:\\Farieblade\\UniTask.csproj": {
+                "projectPath": "E:\\Farieblade\\UniTask.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
+    "E:\\Farieblade\\Zenject-Editor.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\Zenject-Editor.csproj",
+        "projectName": "Zenject-Editor",
+        "projectPath": "E:\\Farieblade\\Zenject-Editor.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {
+              "E:\\Farieblade\\Zenject.csproj": {
+                "projectPath": "E:\\Farieblade\\Zenject.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
+    "E:\\Farieblade\\Zenject-PoolMonitor-Editor.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\Zenject-PoolMonitor-Editor.csproj",
+        "projectName": "Zenject-PoolMonitor-Editor",
+        "projectPath": "E:\\Farieblade\\Zenject-PoolMonitor-Editor.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {
+              "E:\\Farieblade\\Zenject-Editor.csproj": {
+                "projectPath": "E:\\Farieblade\\Zenject-Editor.csproj"
+              },
+              "E:\\Farieblade\\Zenject.csproj": {
+                "projectPath": "E:\\Farieblade\\Zenject.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
+    "E:\\Farieblade\\Zenject-ReflectionBaking-Editor.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\Zenject-ReflectionBaking-Editor.csproj",
+        "projectName": "Zenject-ReflectionBaking-Editor",
+        "projectPath": "E:\\Farieblade\\Zenject-ReflectionBaking-Editor.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {
+              "E:\\Farieblade\\Zenject-Editor.csproj": {
+                "projectPath": "E:\\Farieblade\\Zenject-Editor.csproj"
+              },
+              "E:\\Farieblade\\Zenject.csproj": {
+                "projectPath": "E:\\Farieblade\\Zenject.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
+    "E:\\Farieblade\\Zenject.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Farieblade\\Zenject.csproj",
+        "projectName": "Zenject",
+        "projectPath": "E:\\Farieblade\\Zenject.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    }
+  }
+}

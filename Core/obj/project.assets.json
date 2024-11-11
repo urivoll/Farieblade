@@ -1,0 +1,289 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "UniTask": "1.0.0",
+          "UniTask.Addressables": "1.0.0",
+          "UniTask.DOTween": "1.0.0",
+          "UniTask.Linq": "1.0.0",
+          "UniTask.TextMeshPro": "1.0.0",
+          "Zenject": "1.0.0",
+          "Zenject-Editor": "1.0.0",
+          "Zenject-PoolMonitor-Editor": "1.0.0",
+          "Zenject-ReflectionBaking-Editor": "1.0.0",
+          "spine-unity": "1.0.0",
+          "spine-unity-editor": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        }
+      },
+      "spine-unity/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/spine-unity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/spine-unity.dll": {}
+        }
+      },
+      "spine-unity-editor/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "spine-unity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/spine-unity-editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/spine-unity-editor.dll": {}
+        }
+      },
+      "UniTask/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/UniTask.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UniTask.dll": {}
+        }
+      },
+      "UniTask.Addressables/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "UniTask": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UniTask.Addressables.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UniTask.Addressables.dll": {}
+        }
+      },
+      "UniTask.DOTween/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "UniTask": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UniTask.DOTween.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UniTask.DOTween.dll": {}
+        }
+      },
+      "UniTask.Linq/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "UniTask": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UniTask.Linq.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UniTask.Linq.dll": {}
+        }
+      },
+      "UniTask.TextMeshPro/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "UniTask": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UniTask.TextMeshPro.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UniTask.TextMeshPro.dll": {}
+        }
+      },
+      "Zenject/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Zenject.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zenject.dll": {}
+        }
+      },
+      "Zenject-Editor/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Zenject": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Zenject-Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zenject-Editor.dll": {}
+        }
+      },
+      "Zenject-PoolMonitor-Editor/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Zenject": "1.0.0",
+          "Zenject-Editor": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Zenject-PoolMonitor-Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zenject-PoolMonitor-Editor.dll": {}
+        }
+      },
+      "Zenject-ReflectionBaking-Editor/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Zenject": "1.0.0",
+          "Zenject-Editor": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Zenject-ReflectionBaking-Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zenject-ReflectionBaking-Editor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assembly-CSharp/1.0.0": {
+      "type": "project",
+      "path": "../Assembly-CSharp.csproj",
+      "msbuildProject": "../Assembly-CSharp.csproj"
+    },
+    "spine-unity/1.0.0": {
+      "type": "project",
+      "path": "../spine-unity.csproj",
+      "msbuildProject": "../spine-unity.csproj"
+    },
+    "spine-unity-editor/1.0.0": {
+      "type": "project",
+      "path": "../spine-unity-editor.csproj",
+      "msbuildProject": "../spine-unity-editor.csproj"
+    },
+    "UniTask/1.0.0": {
+      "type": "project",
+      "path": "../UniTask.csproj",
+      "msbuildProject": "../UniTask.csproj"
+    },
+    "UniTask.Addressables/1.0.0": {
+      "type": "project",
+      "path": "../UniTask.Addressables.csproj",
+      "msbuildProject": "../UniTask.Addressables.csproj"
+    },
+    "UniTask.DOTween/1.0.0": {
+      "type": "project",
+      "path": "../UniTask.DOTween.csproj",
+      "msbuildProject": "../UniTask.DOTween.csproj"
+    },
+    "UniTask.Linq/1.0.0": {
+      "type": "project",
+      "path": "../UniTask.Linq.csproj",
+      "msbuildProject": "../UniTask.Linq.csproj"
+    },
+    "UniTask.TextMeshPro/1.0.0": {
+      "type": "project",
+      "path": "../UniTask.TextMeshPro.csproj",
+      "msbuildProject": "../UniTask.TextMeshPro.csproj"
+    },
+    "Zenject/1.0.0": {
+      "type": "project",
+      "path": "../Zenject.csproj",
+      "msbuildProject": "../Zenject.csproj"
+    },
+    "Zenject-Editor/1.0.0": {
+      "type": "project",
+      "path": "../Zenject-Editor.csproj",
+      "msbuildProject": "../Zenject-Editor.csproj"
+    },
+    "Zenject-PoolMonitor-Editor/1.0.0": {
+      "type": "project",
+      "path": "../Zenject-PoolMonitor-Editor.csproj",
+      "msbuildProject": "../Zenject-PoolMonitor-Editor.csproj"
+    },
+    "Zenject-ReflectionBaking-Editor/1.0.0": {
+      "type": "project",
+      "path": "../Zenject-ReflectionBaking-Editor.csproj",
+      "msbuildProject": "../Zenject-ReflectionBaking-Editor.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Assembly-CSharp >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\arnix\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Farieblade\\Core\\Core.csproj",
+      "projectName": "Core",
+      "projectPath": "E:\\Farieblade\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\arnix\\.nuget\\packages\\",
+      "outputPath": "E:\\Farieblade\\Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\arnix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "E:\\Farieblade\\Assembly-CSharp.csproj": {
+              "projectPath": "E:\\Farieblade\\Assembly-CSharp.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

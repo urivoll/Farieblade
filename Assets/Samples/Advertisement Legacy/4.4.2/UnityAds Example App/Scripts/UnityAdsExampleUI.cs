@@ -21,10 +21,9 @@ public class UnityAdsExampleUI : MonoBehaviour
 
     private void Awake()
     {
-        //if you didn't assign in the inspector
         if (unityAdsManager == null)
         {
-            unityAdsManager = FindObjectOfType<UnityAdsManager>();
+            unityAdsManager = FindFirstObjectByType<UnityAdsManager>();
         }
     }
 
